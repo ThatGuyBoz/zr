@@ -101,6 +101,6 @@ All rights reserved © 2026 Zachary Richards.
 
 ## Author / Developer
 
-Developed as a custom website project by Arvelli Media. 
+Developed as a custom website project by Mirenzo Media. 
 
-For inquiries or collaborations, please contact through arvellimedia.com
+For inquiries or collaborations, please contact through https://mirenzomedia.com
