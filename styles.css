@@ -150,6 +150,7 @@ a {
   color: #000;
   font-weight: 500;
   border-radius: 6px;
+  text-align: center;
   transition: transform 0.3s, background 0.3s;
 }
 
