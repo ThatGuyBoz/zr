@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:title" content="Zachary Richards — Fine Dining Excellence">
-  <meta property="og:description" content="Experience luxury dining with Chef Zachary Richards — bespoke menus, fine dining expertise, and unforgettable culinary events in Brisbane.">  <meta property="og:image" content="https://imgur.com/a/Dgtp05R">
-  <!-- <meta property="og:url" content="https://yoursite.com/page"> -->
+  <meta property="og:title" content="Chef Zachary Richards — Fine Dining Excellence">
+  <meta property="og:description" content="Experience luxury dining with Chef Zachary Richards — bespoke menus, fine dining expertise, and unforgettable culinary events in Brisbane.">  
+  <meta property="og:image" content="https://i.imgur.com/MjUsA3T.jpeg">
   <meta property="og:type" content="website">
-  <title>Chef Zachary Richards — Fine Dining & Culinary Excellence</title>
+  <title>Chef Zachary Richards — Fine Dining Excellence</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
@@ -19,6 +19,7 @@
     <div class="container navbar-container">
       <h1 class="logo">ZR</h1>
       <ul class="nav-links">
+        <li><a href="#top">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#gallery">Gallery</a></li>
@@ -33,7 +34,7 @@
   </nav>
 
   <!-- ====== Hero Section ====== -->
-  <section class="hero">
+  <section class="hero" id="top">
     <video autoplay muted loop playsinline webkit-playsinline preload="auto" class="hero-video">
       <source src="hero-food.mp4" type="video/mp4">
     </video>
@@ -66,13 +67,13 @@
 
   <!-- ====== Experience Section ====== -->
   <section class="experience" id="experience">
-    <div class="container">
-      <h2>Professional Experience</h2>
+    <div class="container hidden">
+      <h2>Welcome to the ZR Culinary Experience</h2>
       <div class="experience-grid">
         <div class="experience-card hidden">
           <h3>Brisbane Club</h3>
-          <p class="duration">Head Chef • 4 Years</p>
-          <p>Leading the culinary team, developing menus, and delivering premium dining experiences for high-profile clients.</p>
+          <p class="duration">Chef de Partie • 4 Years</p>
+          <p>Managing a designated kitchen section with a focus on precision, efficiency, and consistent delivery of high-quality dishes.</p>
         </div>
         <div class="experience-card hidden">
           <h3>Fine Dining Expertise</h3>
@@ -104,29 +105,40 @@
   </section>    
 
   <!-- ====== Contact Section ====== -->
-  <section class="contact" id="contact">
-    <div class="container contact-container">
-      <h2>Get In Touch</h2>
-      <p>For exclusive dining experiences, catering, or collaborations:</p>
-      <div class="contact-grid">
-        <div class="contact-item">
-          <strong>Email</strong>
-          <p><a href="mailto:zachary@brisbaneclub.com.au">zachary@brisbaneclub.com.au</a></p>
-        </div>
-        <div class="contact-item">
-          <strong>Location</strong>
-          <p>Brisbane, Australia</p>
-        </div>
-        <div class="contact-item">
-          <strong>Phone</strong>
-          <p><a href="tel:+61733000000">+61 7 3300 0000</a></p>
-        </div>
+ <section class="contact" id="contact">
+  <div class="container contact-container">
+    <h2 class="hidden">Get In Touch</h2>
+    <p class="hidden">For exclusive dining experiences, catering, or collaborations:</p>
+
+    <div class="contact-grid">
+      <div class="contact-item hidden">
+        <strong>Email</strong>
+        <p>
+          <a href="mailto:zachary@brisbaneclub.com.au">
+            zachary@brisbaneclub.com.au
+          </a>
+        </p>
+      </div>
+
+      <div class="contact-item hidden">
+        <strong>Location</strong>
+        <p>Brisbane, Australia</p>
+      </div>
+
+      <div class="contact-item hidden">
+        <strong>Phone</strong>
+        <p>
+          <a href="tel:+61733000000">
+            +61 7 3300 0000
+          </a>
+        </p>
       </div>
     </div>
-  </section>
+  </div>
+ </section>
 
   <!-- ====== Footer ====== -->
-  <footer>
+ <footer>
     <div class="container footer-container">
       <p>&copy; 2026 Zachary Richards. All rights reserved.</p>
       <p>Powered by Mirenzo Media.</p>
