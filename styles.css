@@ -193,6 +193,18 @@ a {
   font-size: 8rem;
   text-align: center;
 }
+/* Hidden by default */
+.hidden {
+  opacity: 0;
+  transform: translateY(50px); /* start slightly below */
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+/* Show when scrolled into view */
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 /* ===== Experience Section ===== */
 .experience {
