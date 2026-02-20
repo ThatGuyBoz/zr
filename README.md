@@ -50,10 +50,12 @@ The design focuses on elegance, minimalism, and a premium fine-dining aesthetic.
 /project-root
 │── index.html
 │── styles.css
-│── hero-food.mp4
-│── /assets (optional)
-│ ├── images
-│ ├── icons
+├── script.js
+├── gallery.html
+├── images
+  ├── 
+├── videos
+
 
 ---
 
