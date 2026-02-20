@@ -27,6 +27,6 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.2 });
 
 // Observe elements with hidden class
-document.querySelectorAll('.about-text, .about-image').forEach(el => {
+document.querySelectorAll('.about-text, .about-image, .experience-card').forEach(el => {
   observer.observe(el);
 });
