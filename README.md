@@ -52,9 +52,8 @@ The design focuses on elegance, minimalism, and a premium fine-dining aesthetic.
 │── styles.css
 ├── script.js
 ├── gallery.html
-├── images
-  ├── 
-├── videos
+├── /images 
+├── /videos
 
 
 ---
